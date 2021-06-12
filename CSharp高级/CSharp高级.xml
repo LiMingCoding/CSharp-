@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharp高级</name>
+    </assembly>
+    <members>
+        <member name="T:CSharp高级.Program">
+            <summary>
+            Defines the <see cref="T:CSharp高级.Program" />.
+            </summary>
+        </member>
+        <member name="M:CSharp高级.Program.Main(System.String[])">
+            <summary>
+            The Main.
+            </summary>
+            <param name="args">The args<see cref="!:string[]"/>.</param>
+        </member>
+    </members>
+</doc>

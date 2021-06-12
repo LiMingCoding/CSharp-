@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>interface01</name>
+    </assembly>
+    <members>
+        <member name="T:interface01.Program">
+            <summary>
+            Defines the <see cref="T:interface01.Program" />.
+            </summary>
+        </member>
+        <member name="M:interface01.Program.DengJi(interface01.练习3.IIntroduce)">
+            <summary>
+            The DengJi.
+            </summary>
+            <param name="djobj">The djobj<see cref="T:interface01.练习3.IIntroduce"/>.</param>
+        </member>
+        <member name="M:interface01.Program.Main(System.String[])">
+            <summary>
+            The Main.
+            </summary>
+            <param name="args">The args<see cref="M:interface01.Program.Main(System.String[])"/>.</param>
+        </member>
+        <member name="T:interface01.SpiderMan">
+            <summary>
+            Defines the <see cref="T:interface01.SpiderMan" />.
+            </summary>
+        </member>
+        <member name="M:interface01.SpiderMan.Jump">
+            <summary>
+            The Jump.
+            </summary>
+        </member>
+        <member name="M:interface01.SpiderMan.fly">
+            <summary>
+            The fly.
+            </summary>
+        </member>
+        <member name="T:interface01.SuperMan">
+            <summary>
+            Defines the <see cref="T:interface01.SuperMan" />.
+            </summary>
+        </member>
+        <member name="M:interface01.SuperMan.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:interface01.SuperMan"/> class.
+            </summary>
+        </member>
+        <member name="M:interface01.SuperMan.fly">
+            <summary>
+            实现了IFlyable接口的Fly方法.
+            </summary>
+        </member>
+        <member name="M:interface01.SuperMan.Jump">
+            <summary>
+            Jump方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.Bird">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.Bird" />.
+            定义一个鸟类，作为基类.
+            </summary>
+        </member>
+        <member name="M:interface01.练习1.Bird.Eat">
+            <summary>
+            Eat()方法是子类都可以继承的方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.IFlyable">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.IFlyable" />.
+            飞翔的接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习1.IFlyable.fly">
+            <summary>
+            飞翔的方法，接口内的方法默认修饰符为public,且不可以更改.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.Ostrich">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.Ostrich" />.
+            鸵鸟类继承鸟类，不会飞翔.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.Parrot">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.Parrot" />.
+            鹦鹉类继承鸟类，扩展了IFlyable接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习1.Parrot.fly">
+            <summary>
+            实现了Fly方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.Penguin">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.Penguin" />.
+            企鹅继承鸟类，不会飞翔.
+            </summary>
+        </member>
+        <member name="T:interface01.练习1.Sparrow">
+            <summary>
+            Defines the <see cref="T:interface01.练习1.Sparrow" />.
+            麻雀继承鸟类，并且扩展了IFlyable接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习1.Sparrow.fly">
+            <summary>
+            实现接口内的Fly方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习2.American">
+            <summary>
+            Defines the <see cref="T:interface01.练习2.American" />.、
+            美国人继承了人类，实现了IItroduce接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习2.American.Introduce">
+            <summary>
+            实现了Introduce方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习2.British">
+            <summary>
+            Defines the <see cref="T:interface01.练习2.British" />.
+            英国人继承人类，实现了IItroduce接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习2.British.Introduce">
+            <summary>
+            实现Introduce方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习2.Chinese">
+            <summary>
+            Defines the <see cref="T:interface01.练习2.Chinese" />.
+            中国人继承人类，扩展了IIntroduce接口.
+            </summary>
+        </member>
+        <member name="M:interface01.练习2.Chinese.Introduce">
+            <summary>
+            实现Introduce方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习2.Person">
+            <summary>
+            Defines the <see cref="T:interface01.练习2.Person" />.
+            定义一个人类，会自我介绍.
+            </summary>
+        </member>
+        <member name="M:interface01.练习2.Person.Introduce">
+            <summary>
+            自我介绍的方法.
+            </summary>
+        </member>
+        <member name="T:interface01.练习3.House">
+            <summary>
+            Defines the <see cref="T:interface01.练习3.House" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习3.House.Introduce">
+            <summary>
+            The Introduce.
+            </summary>
+        </member>
+        <member name="T:interface01.练习3.IIntroduce">
+            <summary>
+            Defines the <see cref="T:interface01.练习3.IIntroduce" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习3.IIntroduce.Introduce">
+            <summary>
+            The Introduce.
+            </summary>
+        </member>
+        <member name="T:interface01.练习4.BestStudent">
+            <summary>
+            Defines the <see cref="T:interface01.练习4.BestStudent" />.
+            </summary>
+        </member>
+        <member name="T:interface01.练习4.ICollect">
+            <summary>
+            Defines the <see cref="T:interface01.练习4.ICollect" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习4.ICollect.Collect">
+            <summary>
+            The Collect.
+            </summary>
+        </member>
+        <member name="T:interface01.练习4.Person">
+            <summary>
+            Defines the <see cref="T:interface01.练习4.Person" />.
+            </summary>
+        </member>
+        <member name="P:interface01.练习4.Person.Age">
+            <summary>
+            Gets or sets the Age.
+            </summary>
+        </member>
+        <member name="P:interface01.练习4.Person.Name">
+            <summary>
+            Gets or sets the Name.
+            </summary>
+        </member>
+        <member name="T:interface01.练习4.Student">
+            <summary>
+            Defines the <see cref="T:interface01.练习4.Student" />.
+            </summary>
+        </member>
+        <member name="T:interface01.练习4.Teacher">
+            <summary>
+            Defines the <see cref="T:interface01.练习4.Teacher" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习4.Teacher.Collect">
+            <summary>
+            The Collect.
+            </summary>
+        </member>
+        <member name="T:interface01.练习5.IBarkable">
+            <summary>
+            Defines the <see cref="T:interface01.练习5.IBarkable" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习5.IBarkable.Bark">
+            <summary>
+            The Bark.
+            </summary>
+        </member>
+        <member name="T:interface01.练习5.Duck">
+            <summary>
+            Defines the <see cref="T:interface01.练习5.Duck" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习5.Duck.Swim">
+            <summary>
+            The Swim.
+            </summary>
+        </member>
+        <member name="T:interface01.练习5.RealDuck">
+            <summary>
+            Defines the <see cref="T:interface01.练习5.RealDuck" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习5.RealDuck.Bark">
+            <summary>
+            The Bark.
+            </summary>
+        </member>
+        <member name="T:interface01.练习5.RubberDuck">
+            <summary>
+            Defines the <see cref="T:interface01.练习5.RubberDuck" />.
+            </summary>
+        </member>
+        <member name="M:interface01.练习5.RubberDuck.Bark">
+            <summary>
+            The Bark.
+            </summary>
+        </member>
+        <member name="T:interface01.练习5.WoodDuck">
+            <summary>
+            Defines the <see cref="T:interface01.练习5.WoodDuck" />.
+            </summary>
+        </member>
+    </members>
+</doc>
