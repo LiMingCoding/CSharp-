@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp高级", "CSharp高级\CSharp高级.csproj", "{E8610D0A-6DB7-4338-89F0-30E3426F727A}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interface01", "interface01\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interface02", "interface02\interface02.csproj", "{3024C8F6-E597-46C4-B49C-3AF9C57EB017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断两个对象是否相同", "判断两个对象是否相同\判断两个对象是否相同.csproj", "{EBA5124E-2DFB-4FAC-BF57-50341D57B636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "判断两个对象是否相同", "判断两个对象是否相同\判断两个对象是否相同.csproj", "{EBA5124E-2DFB-4FAC-BF57-50341D57B636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "入门", "入门\入门.csproj", "{649922E9-9DB3-40EB-98EF-5A01C432B0D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EBA5124E-2DFB-4FAC-BF57-50341D57B636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA5124E-2DFB-4FAC-BF57-50341D57B636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA5124E-2DFB-4FAC-BF57-50341D57B636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649922E9-9DB3-40EB-98EF-5A01C432B0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649922E9-9DB3-40EB-98EF-5A01C432B0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649922E9-9DB3-40EB-98EF-5A01C432B0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649922E9-9DB3-40EB-98EF-5A01C432B0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
