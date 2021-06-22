@@ -12,6 +12,7 @@ namespace 垃圾回收
                 Age = 19,
                 Name = "张三"
             };
+            Console.WriteLine($"{p.Name}{p.Age}");
         }
     }
 }
