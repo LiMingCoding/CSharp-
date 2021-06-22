@@ -11,9 +11,9 @@ namespace 入门._2021年6月22日
     {
         public static void TestOutPut()
         {
-            int[] testArray = { 4, 6, 4, 2, 7, 3, 7, 8, 9, 1,9 };
+            int[] testArray = { 4, 6, 4, 2, 7, 3, 7, 8, 9, 1, 9 };
             int[] maxValIndices;
-            int maxVal = Maxima(testArray,out maxValIndices);
+            int maxVal = Maxima(testArray, out maxValIndices);
             Console.WriteLine($"Maxium value {maxVal} found at element indices.");
             foreach (int index in maxValIndices)
             {
@@ -28,12 +28,12 @@ namespace 入门._2021年6月22日
             indices[0] = 0;
             int count = 1;
             Debug.WriteLine(string.Format($"Maxima value initialized to {maxVal},at element index 0."));
-            for (int i = 1; i <integers.Length; i++)
+            for (int i = 1; i < integers.Length; i++)
             {
                 Debug.WriteLine(string.Format($"Now looking at element at index{i}."));
-                if (integers[i]>maxVal)
+                if (integers[i] > maxVal)
                 {
-                   maxVal = integers[i];
+                    maxVal = integers[i];
                     count = 1;
                     indices = new int[1];
                     indices[0] = i;
@@ -41,14 +41,14 @@ namespace 入门._2021年6月22日
                 }
                 else
                 {
-                    if (integers[i]==maxVal)
+                    if (integers[i] == maxVal)
                     {
                         count++;
                         int[] oldIndices = indices;
                         indices = new int[count];
-                        oldIndices.CopyTo(indices,0);
+                        oldIndices.CopyTo(indices, 0);
                         indices[count - 1] = i;
-                         Debug.WriteLine(string.Format($"Duplicate maxium found at element index[i]")); 
+                        Debug.WriteLine(string.Format($"Duplicate maxium found at element index[i]"));
                     }
                 }
             }
