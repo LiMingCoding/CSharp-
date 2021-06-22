@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interface01", "interface01\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interface02", "interface02\interface02.csproj", "{3024C8F6-E597-46C4-B49C-3AF9C57EB017}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "判断两个对象是否相同", "判断两个对象是否相同\判断两个对象是否相同.csproj", "{EBA5124E-2DFB-4FAC-BF57-50341D57B636}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断两个对象是否相同", "判断两个对象是否相同\判断两个对象是否相同.csproj", "{EBA5124E-2DFB-4FAC-BF57-50341D57B636}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "垃圾回收", "垃圾回收\垃圾回收.csproj", "{CAC1BE0A-9F8B-438B-B6E6-0C63765A4A17}"
 EndProject
