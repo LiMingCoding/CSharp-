@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="类库">
+      <HintPath>..\类库\bin\Debug\net5.0\ref\类库.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

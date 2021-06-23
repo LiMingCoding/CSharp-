@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "垃圾回收", "垃圾回�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "入门", "入门\入门.csproj", "{7802121B-FDCF-421F-9931-BB9FBE46BDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面向对象", "面向对象\面向对象.csproj", "{F68B6D9C-DF12-4144-86B2-5EE03A0080F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "面向对象", "面向对象\面向对象.csproj", "{F68B6D9C-DF12-4144-86B2-5EE03A0080F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "类库", "类库\类库.csproj", "{853A8AE4-EE52-447C-BE50-F7BA650AF57C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_struct", "_struct\_struct.csproj", "{B67F9C80-CAC0-483B-A93E-1D6FB33C6A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_集合", "_集合\_集合.csproj", "{FB09D6C9-1BB4-437D-94C7-4DA2E0F84631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{F68B6D9C-DF12-4144-86B2-5EE03A0080F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F68B6D9C-DF12-4144-86B2-5EE03A0080F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68B6D9C-DF12-4144-86B2-5EE03A0080F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853A8AE4-EE52-447C-BE50-F7BA650AF57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853A8AE4-EE52-447C-BE50-F7BA650AF57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853A8AE4-EE52-447C-BE50-F7BA650AF57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853A8AE4-EE52-447C-BE50-F7BA650AF57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67F9C80-CAC0-483B-A93E-1D6FB33C6A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67F9C80-CAC0-483B-A93E-1D6FB33C6A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67F9C80-CAC0-483B-A93E-1D6FB33C6A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67F9C80-CAC0-483B-A93E-1D6FB33C6A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB09D6C9-1BB4-437D-94C7-4DA2E0F84631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB09D6C9-1BB4-437D-94C7-4DA2E0F84631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB09D6C9-1BB4-437D-94C7-4DA2E0F84631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB09D6C9-1BB4-437D-94C7-4DA2E0F84631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

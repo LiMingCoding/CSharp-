@@ -10,6 +10,7 @@
 namespace 面向对象
 {
     using System;
+    using 类库;
 
     #region Interfaces
 
@@ -29,6 +30,7 @@ namespace 面向对象
 
     /// <summary>
     /// Defines the <see cref="IMyInterface" />.
+    /// </summary>.
     /// </summary>
     internal interface IMyInterface : IMyBaseInterface, IMyBaseInterface2
     {
@@ -70,8 +72,8 @@ namespace 面向对象
         /// <param name="args">The args<see cref="string[]"/>.</param>
         internal static void Main(string[] args)
         {
-            MyComplexClass myObj = new();
-            Console.WriteLine(myObj.ToString());
+            MyExternalClass myExternalClass = new();
+            Console.WriteLine(myExternalClass.ToString());
         }
 
         #endregion
